@@ -16,10 +16,10 @@ The web service contains four GET routes:
 I have used a static [JSON] (https://github.com/jalpaashara/DockerSpringWebservice/blob/master/src/main/resources/data.json) as source for data. 
 
 ## Get Requests available 
-List all tvshows: localhost:8080
-List a particular tvshow: localhost:8080localhost:8080/id 
-List of cast for individual tvshow: localhost:8080/id/cast
-List a particular cast for individual tvshow: localhost:8080/id/cast/castId
+List all tvshows: localhost:8080  
+List a particular tvshow: localhost:8080localhost:8080/showId  
+List of cast for individual tvshow: localhost:8080/id/cast  
+List a particular cast for individual tvshow: localhost:8080/showId/cast/castId  
 
 ### Follow the below steps to create a local environment and run this Spring Boot Application
 ## Step 1:
@@ -57,30 +57,30 @@ META-INF
 ## Step 4:
 Now we have all the setup we need to build the docker image. To build the image you can use the Docker command line. 
 #### `docker build -t springproj/DockerSpringWebservice .`
--t -- tags the imagename "DockerSpringWebservice", you can optionally f=give a tag name after the imagename and a : (DockerSpringWebservice:v1.0). 
-If you dont provide a tagname, docker by defuault assigns latest to the tagname.' 
-Tagnames are useful when you have to version your build images.
+-t -- tags the imagename "DockerSpringWebservice", you can optionally f=give a tag name after the imagename and a : (DockerSpringWebservice:v1.0).  
+If you dont provide a tagname, docker by defuault assigns latest to the tagname.'  
+Tagnames are useful when you have to version your build images.  
 You can check the image built by typing the following on your terminal/cmd:
 #### `docker images`
 
 ## Step 5:
 Now you can run the docker image that is built using the following docker run command:
 #### `docker run -p 8080:8080 DockerSpringWebservice`
--p - publishes a container’s port(s) to the host
-Now go to the browser and type localhost:8080 and it will show you a JSON with the list of tvshows and their cast.
-To see the details of individual tvshows: localhost:8080/4123098 or localhost:8080/4123192 or localhost:8080/4123009
-To see the details of cast for individual tvshows: localhost:8080/4123098/cast or localhost:8080/4123192/cast or localhost:8080/4123009/cast
-To see the details of a particular cast for individual tvshows: localhost:8080/4123098/cast/91873 or localhost:8080/4123192/cast/100987 or localhost:8080/4123009/cast/67124
+-p - publishes a container’s port(s) to the host  
+Now go to the browser and type localhost:8080 and it will show you a JSON with the list of tvshows and their cast.  
+To see the details of individual tvshows: localhost:8080/143 or localhost:8080/329 or localhost:8080/72  
+To see the details of cast for individual tvshows: localhost:8080/143/cast or localhost:8080/329/cast or localhost:8080/4123009/cast  
+To see the details of a particular cast for individual tvshows: localhost:8080/143/cast/20942 or localhost:8080/143/cast/27669 or localhost:8080/329/cast/67991 or localhost:8080/72/cast/5517 or localhost:8080/72/cast/5368 
 
 ## Step 6 (Optional)
-Until now we have used docker locally to build and run in our local environment.
-Now we can push the docker image to docker hub and run it from anywhere.
-The command to push the docker image is:
+Until now we have used docker locally to build and run in our local environment.  
+Now we can push the docker image to docker hub and run it from anywhere.  
+The command to push the docker image is:  
 #### `docker push springproj/DockerSpringWebservice`
-Before you do this make sure you are logged in to Docker. to login to docker use the command below:
+Before you do this make sure you are logged in to Docker. to login to docker use the command below:  
 #### `docker login`
-And it will authenticate you and login to your docker hub repositories.
-Once your image is on the docker hub, you can run it using the run command in Step 5 from anywhere.
+And it will authenticate you and login to your docker hub repositories.  
+Once your image is on the docker hub, you can run it using the run command in Step 5 from anywhere.  
 
 ## Other useful docker commands
 #### `docker ps`
