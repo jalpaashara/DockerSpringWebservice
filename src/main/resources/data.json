@@ -1,0 +1,196 @@
+[
+	{
+		"showId":72,
+		"name":"NCIS: Los Angeles",
+        "type":"Scripted",
+        "language":"English",
+		"status":"Running",
+        "runtime":60,
+		"premiered":"2009-09-22",
+		"network":"CBS",
+		"officialWebSite":"http://www.cbs.com/shows/ncis_los_angeles/",
+		"summary":"NCIS: Los Angeles is a drama about the high-stakes world of a division of NCIS that is charged with apprehending dangerous and elusive criminals that pose a threat to the nation's security. By assuming false identities and utilizing the most advanced technology, this team of highly-trained agents goes deep undercover, putting their lives on the line in the field to bring down their targets.",
+		"cast":[
+			{
+				"castId":5517,
+				"name":"LL Cool J",
+				"character":"Special Agent Sam Hanna",
+				"country":"United States",
+				"gender":"Male",
+				"birthday":"1968-01-14"
+			},
+			{
+				"castId":5368,
+				"name":"Daniela Ruah",
+				"character":"Special Agent Kensi Marie Blye",
+				"country":"United States",
+				"gender":"Female",
+				"birthday":"1983-12-02"
+			},
+			{
+				"castId":5516,
+				"name":"Chris O'Donnell",
+				"character":"Special Agent Grisha Aleksandrovich Nikolaev Callen",
+				"country":"United States",
+				"gender":"Male",
+				"birthday":"1970-06-26"
+			}
+		]
+	},
+	{
+		"showId":329,
+		"name":"Shark Tank",
+        "type":"Reality",
+        "language":"English",
+		"status":"Running",
+		"runtime":60,
+		"premiered":"2009-09-22",
+		"network":"ABC",
+		"officialWebSite":"http://abc.go.com/shows/shark-tank",
+		"summary":"An exciting new reality show that, in these trying economic times, gives budding entrepreneurs a chance to make their dreams come true and become successful - and possibly wealthy - business people. But the entrepreneurs must first try to convince five tough, multi-millionaire tycoons to part with their own hard-earned cash and give them the funding they need to jumpstart their business ideas.Enter the Sharks of Shark Tank, who lifted themselves up by their bootstraps to make their own entrepreneurial dreams come true and turned their ideas into empires. The five Sharks of this ruthless panel are real estate mogul Barbara Corcoran, \"infomercial\" industry pioneer Kevin Harrington, technology innovator Robert Herjavec, fashion icon Daymond John and financial expert Kevin O'Leary.",
+		"cast":[
+			{
+				"castId":67991,
+				"name":"Kevin O'Leary",
+				"character":"Self",
+				"country":"Canada",
+				"gender":"Male",
+				"birthday":"1954-07-09"
+			},
+			{
+				"castId":67992,
+				"name":"Robert Herjavec",
+				"character":"Self",
+				"country":"Croatia",
+				"gender":"Male",
+				"birthday":"1962-09-24"
+			},
+			{
+				"castId":40578,
+				"name":"Phil Crowley",
+				"character":"Announcer",
+				"country":null,
+				"gender":"Male",
+				"birthday":null
+			},
+			{
+				"castId":62017,
+				"name":"Lori Greiner",
+				"character":"Self",
+				"country":"United States",
+				"gender":"Male",
+				"birthday":"1969-12-09"
+			}
+		]
+	},
+	{
+		"showId":143,
+		"name":"Silicon Valley",
+        "type":"Scripted",
+        "language":"English",
+		"status":"Running",
+		"runtime":30,
+		"premiered":"2014-04-06",
+		"network":"HBO",
+		"officialWebSite":"http://www.hbo.com/silicon-valley/",
+		"summary":"In the high-tech gold rush of modern Silicon Valley, the people most qualified to succeed are the least capable of handling success. From Mike Judge comes this satire about a programmer whose game-changing algorithm becomes the subject of a valley-wide bidding war.",
+		"cast":[
+			{
+				"castId":20942,
+				"name":"Zach Woods",
+				"character":"Jared Dunn",
+				"country":"United States",
+				"gender":"Male",
+				"birthday":"1984-09-25"
+			},
+			{
+				"castId":27669,
+				"name":"Kumail Nanjiani",
+				"character":"Dinesh Chugtai",
+				"country":"Pakistan",
+				"gender":"Male",
+				"birthday":"1978-02-21"
+			},
+			{
+				"castId":27753,
+				"name":"Thomas Middleditch",
+				"character":"Richard Hendricks",
+				"country":"Canada",
+				"gender":"Male",
+				"birthday":"1982-03-10"
+			},
+			{
+				"castId":5083,
+				"name":"Martin Starr",
+				"character":"Bertram Gilfoyle",
+				"country":"United States",
+				"gender":"Male",
+				"birthday":"1982-07-30"
+			},
+			{
+				"castId":9492,
+				"name":"Matt Ross",
+				"character":"Gavin Belson",
+				"country":"United States",
+				"gender":"Male",
+				"birthday":"1970-01-03"
+			},
+			{
+				"castId":27755,
+				"name":"Amanda Crew",
+				"character":"Monica Hall",
+				"country":"Canada",
+				"gender":"Female",
+				"birthday":"1986-06-05"
+			},
+			{
+				"castId":27754,
+				"name":"T.J. Miller",
+				"character":"Erlich Bachman",
+				"country":"United States",
+				"gender":"Male",
+				"birthday":"1981-06-04"
+			},
+			{
+				"castId":11892,
+				"name":"Josh Brener",
+				"character":"Nelson \"Big Head\" Bighetti",
+				"country":"United States",
+				"gender":"Male",
+				"birthday":"1984-10-01"
+			},
+			{
+				"castId":34591,
+				"name":"Jimmy O. Yang",
+				"character":"Jian-Yang",
+				"country":"China",
+				"gender":"Male",
+				"birthday":"1987-06-11"
+			},
+			{
+				"castId":12657,
+				"name":"Suzanne Cryer",
+				"character":"Laurie Bream",
+				"country":"United States",
+				"gender":"Female",
+				"birthday":"1967-01-13"
+			},
+			{
+				"castId":1173,
+				"name":"Stephen Tobolowsky",
+				"character":"Jack Barker",
+				"country":"United States",
+				"gender":"Male",
+				"birthday":"1951-05-30"
+			},
+			{
+				"castId":18518,
+				"name":"Christopher Evan Welch",
+				"character":"Peter Gregory",
+				"country":"United States",
+				"gender":"Male",
+				"birthday":"1965-09-28"
+			}
+		]
+	}
+]
