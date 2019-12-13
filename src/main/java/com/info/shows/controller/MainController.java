@@ -19,21 +19,26 @@ public class MainController {
 	TVShowsCastService tvShowCastService;
 	
 	@RequestMapping("/")
+	public String defaultMapping() {
+		return "This is Home page. Change the uri by adding /shows";
+	}
+	
+	@RequestMapping("/shows")
 	public List<Shows> getAllShows(){
 		return tvShowCastService.getAllTVShows();
 	}
 	
-	@GetMapping(value= "/{showId}")
+	@GetMapping(value= "/shows/{showId}")
 	public Shows getByShowId(@PathVariable int showId) {
 		return tvShowCastService.findShowById(showId);
 	}
 	
-	@GetMapping(value= "/{showId}/cast")
+	@GetMapping(value= "/shows/{showId}/cast")
 	public List<Cast> getAllShowCasts(@PathVariable int showId) {
 		return tvShowCastService.getAllShowCasts(showId);
 	}
 	
-	@GetMapping(value = "/{showId}/cast/{castId}")
+	@GetMapping(value = "/shows/{showId}/cast/{castId}")
 	public Cast getShowOrderById(@PathVariable("showId") int showId, @PathVariable("castId") int castId) {
 		return tvShowCastService.findShowCastById(showId, castId);
 	}
